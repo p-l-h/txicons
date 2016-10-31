@@ -1,0 +1,309 @@
+$txicon-address: "\ea01";
+$txicon-calendar: "\ea02";
+$txicon-camera: "\ea03";
+$txicon-caret-down: "\ea04";
+$txicon-cash1: "\ea05";
+$txicon-check-nocircle: "\ea06";
+$txicon-check-o: "\ea07";
+$txicon-check: "\ea08";
+$txicon-check1: "\ea09";
+$txicon-chenggong: "\ea0a";
+$txicon-cny: "\ea0b";
+$txicon-crm: "\ea0c";
+$txicon-dai: "\ea0d";
+$txicon-dangan: "\ea0e";
+$txicon-diandian: "\ea0f";
+$txicon-down: "\ea10";
+$txicon-edit: "\ea11";
+$txicon-edit1: "\ea12";
+$txicon-erp: "\ea13";
+$txicon-erweima: "\ea14";
+$txicon-guanwang: "\ea15";
+$txicon-import-wrong: "\ea16";
+$txicon-info-circle: "\ea17";
+$txicon-kaixin: "\ea18";
+$txicon-left: "\ea19";
+$txicon-list1: "\ea1a";
+$txicon-loop: "\ea1b";
+$txicon-maikefeng: "\ea1c";
+$txicon-male: "\ea1d";
+$txicon-map: "\ea1e";
+$txicon-mic: "\ea1f";
+$txicon-noconflict: "\ea20";
+$txicon-nolist: "\ea21";
+$txicon-order: "\ea22";
+$txicon-pie-graph: "\ea23";
+$txicon-play-o: "\ea24";
+$txicon-play-oo: "\ea25";
+$txicon-play: "\ea26";
+$txicon-plus: "\ea27";
+$txicon-question-circle: "\ea28";
+$txicon-right: "\ea29";
+$txicon-search: "\ea2a";
+$txicon-settings: "\ea2b";
+$txicon-spinner: "\ea2c";
+$txicon-times: "\ea2d";
+$txicon-trash: "\ea2e";
+$txicon-up: "\ea2f";
+$txicon-wave-right: "\ea30";
+$txicon-wifi: "\ea31";
+$txicon-xueyuan: "\ea32";
+$txicon-yingxiao: "\ea33";
+$txicon-zoom: "\ea34";
+
+@font-face {
+    font-family: Txicons;
+    src: url("http://ofwed0pv8.bkt.clouddn.com/Txicons_37b24ebdcc.eot");
+    src: url("http://ofwed0pv8.bkt.clouddn.com/Txicons_37b24ebdcc.eot?#iefix") format("embedded-opentype"), url("http://ofwed0pv8.bkt.clouddn.com/Txicons_1640d22413.woff2") format("woff2"), url("http://ofwed0pv8.bkt.clouddn.com/Txicons_1640d22413.woff") format("woff"), url("http://ofwed0pv8.bkt.clouddn.com/Txicons_fe41787727.ttf") format("truetype"), url("http://ofwed0pv8.bkt.clouddn.com/Txicons_5cd54d5d43.svg#Txicons") format("svg");
+    font-style: normal;
+    font-weight: 400;
+}
+
+%txicon {
+    display: inline-block;
+    transform: translate(0, 0);
+    text-rendering: auto;
+    font: normal normal 400 14px/1 Txicons;
+    font-size: inherit;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+}
+
+.txicon {
+    @extend %txicon;
+}
+
+.txicon-lg {
+    vertical-align: -15%;
+    line-height: 0.75em;
+    font-size: 1.33333333em;
+}
+
+.txicon-2x {
+    font-size: 2em;
+}
+
+.txicon-3x {
+    font-size: 3em;
+}
+
+.txicon-4x {
+    font-size: 4em;
+}
+
+.txicon-5x {
+    font-size: 5em;
+}
+
+.txicon-fw {
+    width: 1.28571429em;
+    text-align: center;
+}
+
+.txicon-address::before {
+    content: "\ea01";
+}
+
+.txicon-calendar::before {
+    content: "\ea02";
+}
+
+.txicon-camera::before {
+    content: "\ea03";
+}
+
+.txicon-caret-down::before {
+    content: "\ea04";
+}
+
+.txicon-cash1::before {
+    content: "\ea05";
+}
+
+.txicon-check-nocircle::before {
+    content: "\ea06";
+}
+
+.txicon-check-o::before {
+    content: "\ea07";
+}
+
+.txicon-check::before {
+    content: "\ea08";
+}
+
+.txicon-check1::before {
+    content: "\ea09";
+}
+
+.txicon-chenggong::before {
+    content: "\ea0a";
+}
+
+.txicon-cny::before {
+    content: "\ea0b";
+}
+
+.txicon-crm::before {
+    content: "\ea0c";
+}
+
+.txicon-dai::before {
+    content: "\ea0d";
+}
+
+.txicon-dangan::before {
+    content: "\ea0e";
+}
+
+.txicon-diandian::before {
+    content: "\ea0f";
+}
+
+.txicon-down::before {
+    content: "\ea10";
+}
+
+.txicon-edit::before {
+    content: "\ea11";
+}
+
+.txicon-edit1::before {
+    content: "\ea12";
+}
+
+.txicon-erp::before {
+    content: "\ea13";
+}
+
+.txicon-erweima::before {
+    content: "\ea14";
+}
+
+.txicon-guanwang::before {
+    content: "\ea15";
+}
+
+.txicon-import-wrong::before {
+    content: "\ea16";
+}
+
+.txicon-info-circle::before {
+    content: "\ea17";
+}
+
+.txicon-kaixin::before {
+    content: "\ea18";
+}
+
+.txicon-left::before {
+    content: "\ea19";
+}
+
+.txicon-list1::before {
+    content: "\ea1a";
+}
+
+.txicon-loop::before {
+    content: "\ea1b";
+}
+
+.txicon-maikefeng::before {
+    content: "\ea1c";
+}
+
+.txicon-male::before {
+    content: "\ea1d";
+}
+
+.txicon-map::before {
+    content: "\ea1e";
+}
+
+.txicon-mic::before {
+    content: "\ea1f";
+}
+
+.txicon-noconflict::before {
+    content: "\ea20";
+}
+
+.txicon-nolist::before {
+    content: "\ea21";
+}
+
+.txicon-order::before {
+    content: "\ea22";
+}
+
+.txicon-pie-graph::before {
+    content: "\ea23";
+}
+
+.txicon-play-o::before {
+    content: "\ea24";
+}
+
+.txicon-play-oo::before {
+    content: "\ea25";
+}
+
+.txicon-play::before {
+    content: "\ea26";
+}
+
+.txicon-plus::before {
+    content: "\ea27";
+}
+
+.txicon-question-circle::before {
+    content: "\ea28";
+}
+
+.txicon-right::before {
+    content: "\ea29";
+}
+
+.txicon-search::before {
+    content: "\ea2a";
+}
+
+.txicon-settings::before {
+    content: "\ea2b";
+}
+
+.txicon-spinner::before {
+    content: "\ea2c";
+}
+
+.txicon-times::before {
+    content: "\ea2d";
+}
+
+.txicon-trash::before {
+    content: "\ea2e";
+}
+
+.txicon-up::before {
+    content: "\ea2f";
+}
+
+.txicon-wave-right::before {
+    content: "\ea30";
+}
+
+.txicon-wifi::before {
+    content: "\ea31";
+}
+
+.txicon-xueyuan::before {
+    content: "\ea32";
+}
+
+.txicon-yingxiao::before {
+    content: "\ea33";
+}
+
+.txicon-zoom::before {
+    content: "\ea34";
+}

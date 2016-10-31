@@ -1,0 +1,8 @@
+ {
+    "fontName": "Txicons",
+    "cssTemplateClassName": "txicon",
+    "cssTemplateFontName": "Txicons",
+    "css": true,
+    "cssFormat": "scss",
+    "cssTemplateFontPath": "http://ofwed0pv8.bkt.clouddn.com/"
+  }
