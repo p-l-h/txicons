@@ -22,7 +22,7 @@ Use `git submodule` or just donwload and unzip the zip to your project.
 
 1.Move svgs you want to use to the `src` folder
 
-2.Config the .qiniurc file with QiNiu's `access key`、`secret key` and `bucket` like this:
+2.Config the .qiniurc file with [QiNiu](http://www.qiniu.com/)'s `access key`、`secret key` and `bucket` like this:
 
 ```json
 {
