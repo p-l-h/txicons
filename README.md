@@ -33,6 +33,7 @@ Use `git submodule` or just donwload and unzip the zip to your project.
 ```
 
 3.run `npm install` to install the dependencies
+
 4.run `npm run build` to get your style and fonts
 
 
