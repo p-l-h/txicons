@@ -74,6 +74,9 @@ function writeMd5File (options) {
 
 
 export default function (iconsConfig) {
+
+    iconsConfig = iconsConfig || {};
+    
     webfont({
         configFile: '.webfontrc',
         files: iconsConfig.src || 'src/icons/*.svg',
